@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CountdownTimer from "./CountdownTimer";
 
-function App() {
+import "./App.css";
+
+export default function App() {
+
+  const newYears = "Jan 1, 2024 00:00:00";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CountdownTimer targetDate={newYears} />
     </div>
   );
 }
-
-export default App;
