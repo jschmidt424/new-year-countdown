@@ -6,7 +6,7 @@ const ExpiredNotice = () => {
   return (
     <div className="expired-notice">
       <span>HAPPY NEW YEAR!!</span>
-      <p>Welcome to 2024!!</p>
+      <p>Welcome to 2025!!</p>
     </div>
   );
 };
